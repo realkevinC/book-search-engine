@@ -13,7 +13,7 @@ const SignupForm = () => {
   const [validated] = useState(false);
   // set state for alert
   const [showAlert, setShowAlert] = useState(false);
-  // mututation for ading user
+  // mututation for adding user
   const [createUser] =useMutation(ADD_USER);
 
   const handleInputChange = (event) => {
